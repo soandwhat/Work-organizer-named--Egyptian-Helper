@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Egyptian Helper</string>
+    <string name="vision">Vision</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="work">Working hours</string>
+    <string name="rest">Time to rest</string>
+    <string name="settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="errorFormat">Date format: </string>
+    <string name="endTime">Time is up</string>
+    <string name="workTime">You can go back to your computer!</string>
+    <string name="restTime">Time to rest!</string>
+    <string name="ok">Okay</string>
+</resources>

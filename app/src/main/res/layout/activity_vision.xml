@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second_bg"
+    android:paddingTop="40dp"
+    tools:context=".VisionActivity">
+
+    <TextView
+        android:id="@+id/header"
+        style="@style/MainStyle"
+        android:layout_alignParentTop="true"
+        android:text="@string/vision"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/time"
+        style="@style/MainStyle"
+        android:layout_below="@id/header"
+        android:text="12:30:00"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/MainStyle"
+        android:layout_below="@id/time"
+        android:text="@string/start"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/type"
+        style="@style/MainStyle"
+        android:layout_below="@id/button"
+        android:text="@string/work"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/timer"
+        style="@style/MainStyle"
+        android:layout_below="@id/type"
+        android:text="00:50:00"
+        android:textColor="#FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@android:drawable/ic_menu_preferences" />
+
+    <ImageView
+        android:id="@+id/changeType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/type"
+        android:layout_toRightOf="@id/type"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <ImageView
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/timer"
+        android:layout_toRightOf="@id/timer"
+        app:srcCompat="@android:drawable/ic_menu_rotate" />
+
+</RelativeLayout>
